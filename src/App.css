@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind directives removed; ensure Tailwind is processed via PostCSS if needed */
 
 /* react-calendar dark mode fixes */
 .react-calendar {
