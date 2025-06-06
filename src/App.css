@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* react-calendar dark mode fixes */
+.react-calendar {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-family: inherit;
+  line-height: 1.125em;
+}
+
+.react-calendar__tile--now {
+  background: #3b82f6;
+  color: white;
+  border-radius: 6px;
+}
+
+.react-calendar__tile--active {
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+}
